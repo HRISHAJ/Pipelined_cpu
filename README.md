@@ -23,6 +23,6 @@ Control Hazards: Branch decision in EX stage with pipeline flush and PC redirect
 Key Modules
 pc, imem, if_id, reg_file, imm_gen, control_unit, id_ex, alu, forwarding_unit, hazard_unit, ex_mem, write_mem, mem_wb, pipelined_cpu
 
-Verification
-Tool: Vivado (XSim)
-Method: Cycle-by-cycle waveform analysis
+
+<img width="1844" height="573" alt="image" src="https://github.com/user-attachments/assets/1cb85a9d-ce0a-4809-8e4d-b0ca4d53a637" />
+
