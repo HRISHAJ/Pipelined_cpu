@@ -66,24 +66,12 @@ This significantly reduces pipeline stalls for dependent ALU instructions.
 Load-Use Hazards
 
 A Hazard Detection Unit identifies cases where forwarding is insufficient (e.g., load followed immediately by a dependent instruction).
-
 In such cases, the pipeline is stalled and control signals are suppressed to preserve correctness.
 
 Verification
 
 Simulation-based functional verification using custom testbenches.
 
-Verified:
-
-Arithmetic and logical operations
-
-Load/store behavior
-
-Branch and jump control flow
-
-Forwarding paths and stall conditions
-
-Debugging performed using waveform analysis of pipeline registers and control signals.
 
 Tools & Methodology
 
@@ -91,17 +79,6 @@ HDL: Verilog
 
 Design: Modular RTL, synthesizable coding style
 
-Verification: Testbenches, waveform debugging
-
-Documentation: Block diagrams and pipeline flow
-
-Limitations & Future Work
-
-Simulation-only (no synthesis, timing, or power analysis yet).
-
-No cache or advanced memory hierarchy.
-
-Planned enhancements: branch prediction, CSR/exception handling, synthesis and PPA analysis.
 
 Professional Relevance
 
