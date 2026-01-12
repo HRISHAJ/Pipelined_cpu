@@ -1,7 +1,7 @@
 # Pipelined RISC-V Processor
 
-Overview
-This project implements a 32-bit, 5-stage pipelined RISC-V processor using synthesizable Verilog RTL. The design follows standard microarchitectural principles and supports arithmetic, memory, and branch instructions with hazard detection, data forwarding, and branch handling. Functionality was verified using cycle-accurate simulation in Vivado/XSim.
+
+This project implements a 32-bit, 5-stage pipelined RISC-V processor using Verilog RTL. The design follows standard microarchitectural principles and supports arithmetic, memory, and branch instructions with hazard detection, data forwarding, and branch handling. 
 
 Architecture
 Pipeline Stages: IF → ID → EX → MEM → WB
