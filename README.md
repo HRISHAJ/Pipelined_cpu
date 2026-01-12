@@ -15,6 +15,7 @@ Maintain modular, synthesizable Verilog suitable for ASIC/FPGA workflows.
 
 Supported ISA
 RV32I (subset)
+
 Arithmetic/Logical: ADD, SUB.
 Immediate: ADDI
 Memory: LW, SW
