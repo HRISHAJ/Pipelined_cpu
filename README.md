@@ -17,9 +17,13 @@ Supported ISA
 RV32I (subset)
 
 Arithmetic/Logical: ADD, SUB.
+
 Immediate: ADDI
+
 Memory: LW, SW
+
 Control: BEQ, BNE.
+
 
 Microarchitecture
 Pipeline Stages
