@@ -1,4 +1,4 @@
-# Pipelined RISC-V Processor
+# 5-Stage Pipelined RISC-V Processor
 
 Overview
 
@@ -83,6 +83,7 @@ Design: Modular RTL, synthesizable coding style
 Professional Relevance
 
 This project demonstrates industry-relevant skills in CPU microarchitecture, RTL design, hazard analysis, data forwarding, and functional verification, reflecting a practical understanding of mapping RISC-V ISA specifications into pipelined hardware implementations.
+
 Schematic of 32-bit Pipelined RISC-V Processor
 
 <img width="1840" height="728" alt="Screenshot 2026-01-13 112345" src="https://github.com/user-attachments/assets/70edb3ce-796d-49ee-b6cc-94df90a5f77d" />
