@@ -7,9 +7,9 @@ module pipelined_cpu(
 
     
     //wire ifid_write = ~stall;
-    wire stall = 1'b0;
-    wire pc_enable = 1'b1;
-    wire ifid_write= 1'b1;
+    wire stall;
+    wire pc_enable;
+    wire ifid_write;
     assign pc_enable = ~stall;
     assign ifid_write = ~stall;
 
